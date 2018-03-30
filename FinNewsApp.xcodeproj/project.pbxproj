@@ -15,6 +15,15 @@
 		95B22ABD206E1416007D7EC6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B22ABC206E1416007D7EC6 /* main.m */; };
 		95B22AC7206E1416007D7EC6 /* FinNewsAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B22AC6206E1416007D7EC6 /* FinNewsAppTests.m */; };
 		95B22AD2206E1416007D7EC6 /* FinNewsAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B22AD1206E1416007D7EC6 /* FinNewsAppUITests.m */; };
+		95B22AE5206E1B77007D7EC6 /* My_press@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 95B22AE1206E1B77007D7EC6 /* My_press@2x.png */; };
+		95B22AE6206E1B77007D7EC6 /* My_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 95B22AE2206E1B77007D7EC6 /* My_normal@3x.png */; };
+		95B22AE7206E1B77007D7EC6 /* My_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 95B22AE3206E1B77007D7EC6 /* My_normal@2x.png */; };
+		95B22AE8206E1B77007D7EC6 /* My_press@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 95B22AE4206E1B77007D7EC6 /* My_press@3x.png */; };
+		95B22AF3206E1C95007D7EC6 /* Tabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B22AEF206E1C95007D7EC6 /* Tabbar.m */; };
+		95B22AF4206E1C95007D7EC6 /* TabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B22AF2206E1C95007D7EC6 /* TabbarViewController.m */; };
+		95B22AF9206E1D4B007D7EC6 /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B22AF8206E1D4B007D7EC6 /* NewsViewController.m */; };
+		95B22AFB206E1D6D007D7EC6 /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B22AFA206E1D6D007D7EC6 /* ShareViewController.m */; };
+		95B22AFD206E1D8C007D7EC6 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B22AFC206E1D8C007D7EC6 /* MyViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,20 @@
 		95B22ACD206E1416007D7EC6 /* FinNewsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinNewsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		95B22AD1206E1416007D7EC6 /* FinNewsAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FinNewsAppUITests.m; sourceTree = "<group>"; };
 		95B22AD3206E1416007D7EC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95B22AE1206E1B77007D7EC6 /* My_press@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "My_press@2x.png"; sourceTree = "<group>"; };
+		95B22AE2206E1B77007D7EC6 /* My_normal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "My_normal@3x.png"; sourceTree = "<group>"; };
+		95B22AE3206E1B77007D7EC6 /* My_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "My_normal@2x.png"; sourceTree = "<group>"; };
+		95B22AE4206E1B77007D7EC6 /* My_press@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "My_press@3x.png"; sourceTree = "<group>"; };
+		95B22AEF206E1C95007D7EC6 /* Tabbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Tabbar.m; path = FinNewsApp/Tabbar/Tabbar.m; sourceTree = SOURCE_ROOT; };
+		95B22AF0206E1C95007D7EC6 /* Tabbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tabbar.h; path = FinNewsApp/Tabbar/Tabbar.h; sourceTree = SOURCE_ROOT; };
+		95B22AF1206E1C95007D7EC6 /* TabbarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TabbarViewController.h; path = FinNewsApp/Tabbar/TabbarViewController.h; sourceTree = SOURCE_ROOT; };
+		95B22AF2206E1C95007D7EC6 /* TabbarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TabbarViewController.m; path = FinNewsApp/Tabbar/TabbarViewController.m; sourceTree = SOURCE_ROOT; };
+		95B22AF5206E1CC4007D7EC6 /* MyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		95B22AF6206E1D03007D7EC6 /* ShareViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareViewController.h; sourceTree = "<group>"; };
+		95B22AF7206E1D23007D7EC6 /* NewsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
+		95B22AF8206E1D4B007D7EC6 /* NewsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
+		95B22AFA206E1D6D007D7EC6 /* ShareViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareViewController.m; sourceTree = "<group>"; };
+		95B22AFC206E1D8C007D7EC6 /* MyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +124,11 @@
 		95B22AAC206E1416007D7EC6 /* FinNewsApp */ = {
 			isa = PBXGroup;
 			children = (
+				95B22AEE206E1C7B007D7EC6 /* Tabbar */,
+				95B22AED206E1C6E007D7EC6 /* My */,
+				95B22AEC206E1C39007D7EC6 /* Share */,
+				95B22AEB206E1C2A007D7EC6 /* News */,
+				95B22ADF206E1ACD007D7EC6 /* Resources */,
 				95B22AAD206E1416007D7EC6 /* AppDelegate.h */,
 				95B22AAE206E1416007D7EC6 /* AppDelegate.m */,
 				95B22AB0206E1416007D7EC6 /* ViewController.h */,
@@ -130,6 +158,64 @@
 				95B22AD3206E1416007D7EC6 /* Info.plist */,
 			);
 			path = FinNewsAppUITests;
+			sourceTree = "<group>";
+		};
+		95B22ADF206E1ACD007D7EC6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				95B22AE0206E1AE1007D7EC6 /* TabBar */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		95B22AE0206E1AE1007D7EC6 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				95B22AE3206E1B77007D7EC6 /* My_normal@2x.png */,
+				95B22AE2206E1B77007D7EC6 /* My_normal@3x.png */,
+				95B22AE1206E1B77007D7EC6 /* My_press@2x.png */,
+				95B22AE4206E1B77007D7EC6 /* My_press@3x.png */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		95B22AEB206E1C2A007D7EC6 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				95B22AF7206E1D23007D7EC6 /* NewsViewController.h */,
+				95B22AF8206E1D4B007D7EC6 /* NewsViewController.m */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		95B22AEC206E1C39007D7EC6 /* Share */ = {
+			isa = PBXGroup;
+			children = (
+				95B22AF6206E1D03007D7EC6 /* ShareViewController.h */,
+				95B22AFA206E1D6D007D7EC6 /* ShareViewController.m */,
+			);
+			path = Share;
+			sourceTree = "<group>";
+		};
+		95B22AED206E1C6E007D7EC6 /* My */ = {
+			isa = PBXGroup;
+			children = (
+				95B22AF5206E1CC4007D7EC6 /* MyViewController.h */,
+				95B22AFC206E1D8C007D7EC6 /* MyViewController.m */,
+			);
+			path = My;
+			sourceTree = "<group>";
+		};
+		95B22AEE206E1C7B007D7EC6 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				95B22AF0206E1C95007D7EC6 /* Tabbar.h */,
+				95B22AEF206E1C95007D7EC6 /* Tabbar.m */,
+				95B22AF1206E1C95007D7EC6 /* TabbarViewController.h */,
+				95B22AF2206E1C95007D7EC6 /* TabbarViewController.m */,
+			);
+			name = Tabbar;
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,7 +326,11 @@
 			files = (
 				95B22ABA206E1416007D7EC6 /* LaunchScreen.storyboard in Resources */,
 				95B22AB7206E1416007D7EC6 /* Assets.xcassets in Resources */,
+				95B22AE5206E1B77007D7EC6 /* My_press@2x.png in Resources */,
+				95B22AE7206E1B77007D7EC6 /* My_normal@2x.png in Resources */,
 				95B22AB5206E1416007D7EC6 /* Main.storyboard in Resources */,
+				95B22AE8206E1B77007D7EC6 /* My_press@3x.png in Resources */,
+				95B22AE6206E1B77007D7EC6 /* My_normal@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,9 +355,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95B22AF4206E1C95007D7EC6 /* TabbarViewController.m in Sources */,
 				95B22AB2206E1416007D7EC6 /* ViewController.m in Sources */,
+				95B22AFD206E1D8C007D7EC6 /* MyViewController.m in Sources */,
 				95B22ABD206E1416007D7EC6 /* main.m in Sources */,
+				95B22AF9206E1D4B007D7EC6 /* NewsViewController.m in Sources */,
+				95B22AFB206E1D6D007D7EC6 /* ShareViewController.m in Sources */,
 				95B22AAF206E1416007D7EC6 /* AppDelegate.m in Sources */,
+				95B22AF3206E1C95007D7EC6 /* Tabbar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

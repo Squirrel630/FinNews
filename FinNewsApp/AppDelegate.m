@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "Tabbar/TabbarViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,19 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+  
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor] ;
+    [self.window makeKeyAndVisible];
+    
+    NSArray *selectedArr = @[@"My_press",@"My_press",@"My_press"]  ;
+    NSArray *unSeleceArr = @[@"My_normal",@"My_normal",@"My_normal"] ;
+    
+    TabbarViewController *tabbar = [[TabbarViewController alloc]initWithNomarImageArr:unSeleceArr
+                                                                    andSelectImageArr:selectedArr];
+    tabbar.modalTransitionStyle =UIModalTransitionStyleCrossDissolve ;
+    self.window.rootViewController = tabbar ;
+    
     return YES;
 }
 
