@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95B22AAF206E1416007D7EC6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B22AAE206E1416007D7EC6 /* AppDelegate.m */; };
+		95B22AB2206E1416007D7EC6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B22AB1206E1416007D7EC6 /* ViewController.m */; };
+		95B22AB5206E1416007D7EC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95B22AB3206E1416007D7EC6 /* Main.storyboard */; };
+		95B22AB7206E1416007D7EC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95B22AB6206E1416007D7EC6 /* Assets.xcassets */; };
+		95B22ABA206E1416007D7EC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95B22AB8206E1416007D7EC6 /* LaunchScreen.storyboard */; };
+		95B22ABD206E1416007D7EC6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B22ABC206E1416007D7EC6 /* main.m */; };
+		95B22AC7206E1416007D7EC6 /* FinNewsAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B22AC6206E1416007D7EC6 /* FinNewsAppTests.m */; };
+		95B22AD2206E1416007D7EC6 /* FinNewsAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B22AD1206E1416007D7EC6 /* FinNewsAppUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95B22AC3206E1416007D7EC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95B22AA2206E1416007D7EC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95B22AA9206E1416007D7EC6;
+			remoteInfo = FinNewsApp;
+		};
+		95B22ACE206E1416007D7EC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95B22AA2206E1416007D7EC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95B22AA9206E1416007D7EC6;
+			remoteInfo = FinNewsApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		95B22AAA206E1416007D7EC6 /* FinNewsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinNewsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95B22AAD206E1416007D7EC6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		95B22AAE206E1416007D7EC6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		95B22AB0206E1416007D7EC6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		95B22AB1206E1416007D7EC6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		95B22AB4206E1416007D7EC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95B22AB6206E1416007D7EC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95B22AB9206E1416007D7EC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95B22ABB206E1416007D7EC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95B22ABC206E1416007D7EC6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		95B22AC2206E1416007D7EC6 /* FinNewsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinNewsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95B22AC6206E1416007D7EC6 /* FinNewsAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FinNewsAppTests.m; sourceTree = "<group>"; };
+		95B22AC8206E1416007D7EC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95B22ACD206E1416007D7EC6 /* FinNewsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinNewsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95B22AD1206E1416007D7EC6 /* FinNewsAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FinNewsAppUITests.m; sourceTree = "<group>"; };
+		95B22AD3206E1416007D7EC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95B22AA7206E1416007D7EC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95B22ABF206E1416007D7EC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95B22ACA206E1416007D7EC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95B22AA1206E1416007D7EC6 = {
+			isa = PBXGroup;
+			children = (
+				95B22AAC206E1416007D7EC6 /* FinNewsApp */,
+				95B22AC5206E1416007D7EC6 /* FinNewsAppTests */,
+				95B22AD0206E1416007D7EC6 /* FinNewsAppUITests */,
+				95B22AAB206E1416007D7EC6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95B22AAB206E1416007D7EC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95B22AAA206E1416007D7EC6 /* FinNewsApp.app */,
+				95B22AC2206E1416007D7EC6 /* FinNewsAppTests.xctest */,
+				95B22ACD206E1416007D7EC6 /* FinNewsAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95B22AAC206E1416007D7EC6 /* FinNewsApp */ = {
+			isa = PBXGroup;
+			children = (
+				95B22AAD206E1416007D7EC6 /* AppDelegate.h */,
+				95B22AAE206E1416007D7EC6 /* AppDelegate.m */,
+				95B22AB0206E1416007D7EC6 /* ViewController.h */,
+				95B22AB1206E1416007D7EC6 /* ViewController.m */,
+				95B22AB3206E1416007D7EC6 /* Main.storyboard */,
+				95B22AB6206E1416007D7EC6 /* Assets.xcassets */,
+				95B22AB8206E1416007D7EC6 /* LaunchScreen.storyboard */,
+				95B22ABB206E1416007D7EC6 /* Info.plist */,
+				95B22ABC206E1416007D7EC6 /* main.m */,
+			);
+			path = FinNewsApp;
+			sourceTree = "<group>";
+		};
+		95B22AC5206E1416007D7EC6 /* FinNewsAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				95B22AC6206E1416007D7EC6 /* FinNewsAppTests.m */,
+				95B22AC8206E1416007D7EC6 /* Info.plist */,
+			);
+			path = FinNewsAppTests;
+			sourceTree = "<group>";
+		};
+		95B22AD0206E1416007D7EC6 /* FinNewsAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				95B22AD1206E1416007D7EC6 /* FinNewsAppUITests.m */,
+				95B22AD3206E1416007D7EC6 /* Info.plist */,
+			);
+			path = FinNewsAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95B22AA9206E1416007D7EC6 /* FinNewsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95B22AD6206E1416007D7EC6 /* Build configuration list for PBXNativeTarget "FinNewsApp" */;
+			buildPhases = (
+				95B22AA6206E1416007D7EC6 /* Sources */,
+				95B22AA7206E1416007D7EC6 /* Frameworks */,
+				95B22AA8206E1416007D7EC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FinNewsApp;
+			productName = FinNewsApp;
+			productReference = 95B22AAA206E1416007D7EC6 /* FinNewsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		95B22AC1206E1416007D7EC6 /* FinNewsAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95B22AD9206E1416007D7EC6 /* Build configuration list for PBXNativeTarget "FinNewsAppTests" */;
+			buildPhases = (
+				95B22ABE206E1416007D7EC6 /* Sources */,
+				95B22ABF206E1416007D7EC6 /* Frameworks */,
+				95B22AC0206E1416007D7EC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95B22AC4206E1416007D7EC6 /* PBXTargetDependency */,
+			);
+			name = FinNewsAppTests;
+			productName = FinNewsAppTests;
+			productReference = 95B22AC2206E1416007D7EC6 /* FinNewsAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		95B22ACC206E1416007D7EC6 /* FinNewsAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95B22ADC206E1416007D7EC6 /* Build configuration list for PBXNativeTarget "FinNewsAppUITests" */;
+			buildPhases = (
+				95B22AC9206E1416007D7EC6 /* Sources */,
+				95B22ACA206E1416007D7EC6 /* Frameworks */,
+				95B22ACB206E1416007D7EC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95B22ACF206E1416007D7EC6 /* PBXTargetDependency */,
+			);
+			name = FinNewsAppUITests;
+			productName = FinNewsAppUITests;
+			productReference = 95B22ACD206E1416007D7EC6 /* FinNewsAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95B22AA2206E1416007D7EC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = lusonglin;
+				TargetAttributes = {
+					95B22AA9206E1416007D7EC6 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					95B22AC1206E1416007D7EC6 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 95B22AA9206E1416007D7EC6;
+					};
+					95B22ACC206E1416007D7EC6 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 95B22AA9206E1416007D7EC6;
+					};
+				};
+			};
+			buildConfigurationList = 95B22AA5206E1416007D7EC6 /* Build configuration list for PBXProject "FinNewsApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95B22AA1206E1416007D7EC6;
+			productRefGroup = 95B22AAB206E1416007D7EC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95B22AA9206E1416007D7EC6 /* FinNewsApp */,
+				95B22AC1206E1416007D7EC6 /* FinNewsAppTests */,
+				95B22ACC206E1416007D7EC6 /* FinNewsAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95B22AA8206E1416007D7EC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95B22ABA206E1416007D7EC6 /* LaunchScreen.storyboard in Resources */,
+				95B22AB7206E1416007D7EC6 /* Assets.xcassets in Resources */,
+				95B22AB5206E1416007D7EC6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95B22AC0206E1416007D7EC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95B22ACB206E1416007D7EC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95B22AA6206E1416007D7EC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95B22AB2206E1416007D7EC6 /* ViewController.m in Sources */,
+				95B22ABD206E1416007D7EC6 /* main.m in Sources */,
+				95B22AAF206E1416007D7EC6 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95B22ABE206E1416007D7EC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95B22AC7206E1416007D7EC6 /* FinNewsAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95B22AC9206E1416007D7EC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95B22AD2206E1416007D7EC6 /* FinNewsAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95B22AC4206E1416007D7EC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95B22AA9206E1416007D7EC6 /* FinNewsApp */;
+			targetProxy = 95B22AC3206E1416007D7EC6 /* PBXContainerItemProxy */;
+		};
+		95B22ACF206E1416007D7EC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95B22AA9206E1416007D7EC6 /* FinNewsApp */;
+			targetProxy = 95B22ACE206E1416007D7EC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		95B22AB3206E1416007D7EC6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95B22AB4206E1416007D7EC6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		95B22AB8206E1416007D7EC6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95B22AB9206E1416007D7EC6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95B22AD4206E1416007D7EC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		95B22AD5206E1416007D7EC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95B22AD7206E1416007D7EC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FinNewsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nlp.FinNewsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95B22AD8206E1416007D7EC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FinNewsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nlp.FinNewsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		95B22ADA206E1416007D7EC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FinNewsAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nlp.FinNewsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FinNewsApp.app/FinNewsApp";
+			};
+			name = Debug;
+		};
+		95B22ADB206E1416007D7EC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FinNewsAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nlp.FinNewsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FinNewsApp.app/FinNewsApp";
+			};
+			name = Release;
+		};
+		95B22ADD206E1416007D7EC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FinNewsAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nlp.FinNewsAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FinNewsApp;
+			};
+			name = Debug;
+		};
+		95B22ADE206E1416007D7EC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FinNewsAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nlp.FinNewsAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FinNewsApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95B22AA5206E1416007D7EC6 /* Build configuration list for PBXProject "FinNewsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95B22AD4206E1416007D7EC6 /* Debug */,
+				95B22AD5206E1416007D7EC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95B22AD6206E1416007D7EC6 /* Build configuration list for PBXNativeTarget "FinNewsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95B22AD7206E1416007D7EC6 /* Debug */,
+				95B22AD8206E1416007D7EC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95B22AD9206E1416007D7EC6 /* Build configuration list for PBXNativeTarget "FinNewsAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95B22ADA206E1416007D7EC6 /* Debug */,
+				95B22ADB206E1416007D7EC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95B22ADC206E1416007D7EC6 /* Build configuration list for PBXNativeTarget "FinNewsAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95B22ADD206E1416007D7EC6 /* Debug */,
+				95B22ADE206E1416007D7EC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95B22AA2206E1416007D7EC6 /* Project object */;
+}
